@@ -93,7 +93,7 @@ def mousePressed():  # controls buttons
 def next_button():
     global flip_card
     global time_counter
-    flip_card = True
+    # flip_card = True
     if mouseX > 325 and mouseY > 350:  # changes what card you see
         if flip_card:
             flip_card = False
